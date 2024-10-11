@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="language-switch">
+        <button id="langBtn">Change Language</button>
+    </div>
+    <div class="login-container">
+        <h2 id="login-title">Login</h2>
+        <form action="#" method="POST">
+            <label for="username" id="label-username">Username or email address</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password" id="label-password">Password</label>
+            <input type="password" id="password" name="password" required>
+
+            <a href="#" id="forgot-password" class="forgot-password">Forgot password?</a>
+            <button type="submit" id="sign-in-btn">Sign in</button>
+        </form>
+
+        <div class="terms">
+            <a href="#" id="terms-link">Terms</a> | 
+            <a href="#" id="privacy-link">Privacy</a> | 
+            <a href="#" id="cookies-link">Manage cookies</a>
+        </div>
+    </div>
+
+    <script src="language.js"></script>
+</body>
+</html>

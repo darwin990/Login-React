@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('anochecer-dunas-de-arena-en-el-desierto-estrellas_2560x1440_xtrafondos.com.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.language-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.language-switch button {
+    padding: 10px 20px;
+    background-color: #F2F1FA;
+    color: #4a4a4a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.language-switch button:hover {
+    background-color: #d1d1d1;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #ffcc99;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #ffcc99;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input {
+    background-color: rgba(79, 61, 85, 0.5);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+input:focus{
+    background-color: #F2F1FA;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff8c66;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff704d;
+}
+
+.forgot-password {
+    margin-bottom: 15px;
+    display: block;
+    text-align: right;
+    color: #ffcc99;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+.terms a {
+    color: #ffcc99;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
